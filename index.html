@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hoà Đồng Cuộc Sống Tươi Đẹp | Kết Nối Yêu Thương & Năng Lượng Tích Cực</title>
+  <meta name="description" content="Hoà Đồng Cuộc Sống Tươi Đẹp - Không gian chia sẻ niềm vui sống, kết nối tâm hồn, lan toả sự chân thành và vẻ đẹp cuộc sống. Liên hệ: 0983507192 | buithihoathcshl@gmail.com" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Interactive Floating Blossom Petals Canvas -->
+  <canvas id="petals-canvas" aria-hidden="true"></canvas>
+
+  <!-- Ambient Soft Lighting Orbs -->
+  <div class="ambient-orb orb-1" aria-hidden="true"></div>
+  <div class="ambient-orb orb-2" aria-hidden="true"></div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <a href="#trang-chu" class="brand">
+      <div class="brand-icon">HĐ</div>
+      <div class="brand-text">
+        <span class="brand-title">Hoà Đồng</span>
+        <span class="brand-subtitle">Cuộc Sống Tươi Đẹp</span>
+      </div>
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="#trang-chu" class="active">Trang Chủ</a></li>
+      <li><a href="#gia-tri">Giá Trị Sống</a></li>
+      <li><a href="#cau-chuyen">Gắn Kết</a></li>
+      <li><a href="#khoanh-khac">Khoảnh Khắc Đẹp</a></li>
+      <li><a href="#cam-hung">Góc Cảm Hứng</a></li>
+      <li><a href="#lien-he">Liên Hệ</a></li>
+    </ul>
+
+    <div class="nav-actions">
+      <button id="theme-toggle" class="theme-toggle" title="Đổi giao diện Sáng / Tối" aria-label="Đổi giao diện Sáng Tối">
+        🌙
+      </button>
+      <a href="tel:0983507192" class="btn btn-primary">
+        <span>📞 0983.507.192</span>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="trang-chu" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <div class="hero-badge">
+            <span class="pulse-dot"></span>
+            <span>Lan Toả Năng Lượng Tích Cực & Yêu Thương</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hoà Đồng <br />
+            <span class="gradient-text">Cuộc Sống Tươi Đẹp</span>
+          </h1>
+
+          <p class="hero-lead">
+            Nơi lưu giữ những nụ cười rạng rỡ, kết nối những trái tim đồng điệu và tôn vinh vẻ đẹp của sự sẻ chia, chan hoà trong từng khoảnh khắc đời thường.
+          </p>
+
+          <div class="hero-cta">
+            <a href="#lien-he" class="btn btn-primary">
+              <span>✨ Kết Nối Trực Tiếp</span>
+            </a>
+            <a href="#khoanh-khac" class="btn btn-outline">
+              <span>🌸 Ngắm Nhìn Khoảnh Khắc</span>
+            </a>
+          </div>
+
+          <!-- Instant Contact Strip -->
+          <div class="hero-contact-strip">
+            <a href="tel:0983507192" class="contact-pill">
+              <div class="pill-icon">📱</div>
+              <div class="pill-info">
+                <small>Điện thoại kết nối</small>
+                <strong>0983 507 192</strong>
+              </div>
+            </a>
+
+            <a href="mailto:buithihoathcshl@gmail.com" class="contact-pill">
+              <div class="pill-icon">✉️</div>
+              <div class="pill-info">
+                <small>Hộp thư điện tử</small>
+                <strong>buithihoathcshl@gmail.com</strong>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Portrait Showcase -->
+        <div class="hero-visual reveal">
+          <div class="floating-card card-top">
+            <span class="float-emoji">🌺</span>
+            <div class="float-text">
+              <strong>Rạng Rỡ & Nhân Ái</strong>
+              <span>Yêu thương từ sự chân thành</span>
+            </div>
+          </div>
+
+          <div
+            class="portrait-frame"
+            data-lightbox-src="NGT05445.jpg"
+            data-lightbox-caption="Nụ cười rạng rỡ và thần thái an nhiên giữa không gian văn hoá đầy sắc màu"
+          >
+            <div class="portrait-img-wrapper">
+              <img
+                src="NGT05445.jpg"
+                alt="Chân dung cô Bùi Thị Hoà - Hoà Đồng Cuộc Sống Tươi Đẹp"
+              />
+            </div>
+          </div>
+
+          <div class="floating-card card-bottom">
+            <span class="float-emoji">🤝</span>
+            <div class="float-text">
+              <strong>Sống Hoà Đồng</strong>
+              <span>Gắn kết tình thân bền chặt</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Core Philosophy / Values Section -->
+    <section id="gia-tri">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-badge">🌿 Triết Lý Sống Đẹp</div>
+          <h2 class="section-title">
+            Bốn Sắc Màu Làm Nên <span>Cuộc Sống Tươi Đẹp</span>
+          </h2>
+          <p class="section-desc">
+            Khi mở lòng đón nhận thế giới bằng sự dịu dàng và chân thành, mỗi ngày trôi qua đều là một món quà vô giá.
+          </p>
+        </div>
+
+        <div class="values-grid">
+          <article class="value-card reveal">
+            <div class="value-icon">🌸</div>
+            <h3>Sự Hoà Đồng & Chân Thành</h3>
+            <p>
+              Luôn lắng nghe, thấu hiểu và sẻ chia bằng trái tim ấm áp, xoá nhoà mọi khoảng cách để gắn kết con người gần nhau hơn.
+            </p>
+          </article>
+
+          <article class="value-card reveal">
+            <div class="value-icon">☀️</div>
+            <h3>Năng Lượng Lạc Quan</h3>
+            <p>
+              Giữ vững nụ cười tươi tắn trước mọi thăng trầm, biến những điều giản dị quanh ta thành niềm cảm hứng sống mỗi ngày.
+            </p>
+          </article>
+
+          <article class="value-card reveal">
+            <div class="value-icon">📚</div>
+            <h3>Nét Đẹp Tri Thức & Tâm Hồn</h3>
+            <p>
+              Không ngừng bồi đắp tâm hồn từ nghề giáo cao quý, truyền lửa yêu thương và lối sống nhân văn tới cộng đồng.
+            </p>
+          </article>
+
+          <article class="value-card reveal">
+            <div class="value-icon">🌏</div>
+            <h3>Khám Phá & Trải Nghiệm</h3>
+            <p>
+              Trân trọng vẻ đẹp truyền thống tà áo dài Việt Nam đồng thời mở lòng giao lưu, khám phá những nét đẹp văn hoá muôn phương.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Community & Friendship Story Section -->
+    <section id="cau-chuyen" class="community-section">
+      <div class="container story-showcase">
+        <div
+          class="group-photo-card reveal"
+          data-lightbox-src="467609728_122114277842577800_8073950612344098194_n.jpg"
+          data-lightbox-caption="Tình đồng nghiệp gắn bó thắm thiết trong tà áo dài truyền thống rực rỡ sắc xuân"
+        >
+          <div class="group-photo-wrapper">
+            <img
+              src="467609728_122114277842577800_8073950612344098194_n.jpg"
+              alt="Tập thể chị em đồng nghiệp duyên dáng trong tà áo dài truyền thống"
+            />
+            <div class="photo-overlay-badge">
+              <span>✨ Chạm vào ảnh để phóng to toàn màn hình</span>
+              <strong>🔍 Xem chi tiết</strong>
+            </div>
+          </div>
+        </div>
+
+        <div class="story-content reveal">
+          <div class="section-badge">💖 Tình Thân & Đồng Nghiệp</div>
+          <h3>Hạnh Phúc Đong Đầy Khi Ta Cùng Nhau Toả Sáng</h3>
+          <p>
+            Cuộc sống trở nên rực rỡ nhất khi chúng ta có những người bạn, người chị em, đồng nghiệp luôn sát cánh bên nhau. Từ mái trường thân yêu đến những chuyến hành trình khám phá, sự <strong>hoà đồng</strong> chính là sợi dây gắn kết bền chặt nhất.
+          </p>
+          <p>
+            Trong tà áo dài truyền thống Việt Nam đầy sắc màu, mỗi nụ cười là một đoá hoa biểu trưng cho tinh thần đoàn kết, yêu đời và trân quý từng phút giây hội ngộ.
+          </p>
+
+          <div class="stats-row">
+            <div class="stat-box">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">Năng Lượng Tích Cực</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-number">24/7</span>
+              <span class="stat-label">Sẵn Sàng Sẻ Chia</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-number">∞</span>
+              <span class="stat-label">Kỷ Niệm Đáng Nhớ</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Visual Moments Gallery -->
+    <section id="khoanh-khac">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-badge">📸 Thư Viện Khoảnh Khắc</div>
+          <h2 class="section-title">
+            Góc Nhìn <span>Sống Động & Đầy Cảm Xúc</span>
+          </h2>
+          <p class="section-desc">
+            Những bức hình lưu giữ trọn vẹn nét duyên dáng, thanh lịch và tinh thần yêu đời bất tận.
+          </p>
+        </div>
+
+        <div class="gallery-grid">
+          <div
+            class="gallery-item span-7 reveal"
+            data-lightbox-src="467609728_122114277842577800_8073950612344098194_n.jpg"
+            data-lightbox-caption="Sắc màu áo dài Việt Nam - Gắn kết tình chị em đồng nghiệp dưới mái trường thân thương"
+          >
+            <img
+              src="467609728_122114277842577800_8073950612344098194_n.jpg"
+              alt="Duyên dáng áo dài Việt Nam cùng các chị em đồng nghiệp"
+            />
+            <div class="gallery-caption">
+              <span class="gallery-tag">Duyên Dáng Áo Dài Việt</span>
+              <h4>Hội Ngộ Rạng Ngời Dưới Mái Trường</h4>
+              <p>Những tà áo dài thướt tha kết nối tình đồng nghiệp ấm áp và tràn đầy sức sống.</p>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item span-5 reveal"
+            data-lightbox-src="NGT05445.jpg"
+            data-lightbox-caption="Vẻ đẹp thanh tao, tươi trẻ và tràn đầy niềm vui sống trong từng hành trình trải nghiệm"
+          >
+            <img
+              src="NGT05445.jpg"
+              alt="Khoảnh khắc du lịch và trải nghiệm văn hoá tươi đẹp"
+            />
+            <div class="gallery-caption">
+              <span class="gallery-tag">Giao Thoa Văn Hoá</span>
+              <h4>Nụ Cười Toả Nắng Mùa Xuân</h4>
+              <p>Phong thái tự tin, dịu dàng với đoá hoa đỏ cài tóc rực rỡ sắc xuân.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Daily Inspiration Section -->
+    <section id="cam-hung">
+      <div class="container reveal">
+        <div class="inspiration-card">
+          <div class="section-badge">💌 Thông Điệp Yêu Thương Mỗi Ngày</div>
+          <div class="quote-mark">“</div>
+          <p id="quote-text" class="quote-text">
+            “Sự hoà đồng là chiếc chìa khoá vàng mở ra cánh cửa của muôn vàn niềm vui và tình thân ái trong cuộc sống.”
+          </p>
+          <div id="quote-author" class="quote-author">
+            Hoà Đồng Cuộc Sống Tươi Đẹp
+          </div>
+          <button id="next-quote-btn" class="btn btn-primary" type="button">
+            <span>✨ Đón Nhận Thông Điệp Mới</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="lien-he">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-badge">🤝 Kết Nối Với Chúng Tôi</div>
+          <h2 class="section-title">
+            Giữ Liên Lạc Để Cùng <span>Lan Toả Niềm Vui</span>
+          </h2>
+          <p class="section-desc">
+            Hãy liên hệ bất cứ khi nào bạn muốn trò chuyện, giao lưu hay chia sẻ những câu chuyện tươi đẹp của cuộc sống.
+          </p>
+        </div>
+
+        <div class="contact-wrapper reveal">
+          <div class="contact-left">
+            <h3 style="font-family: var(--font-serif); font-size: 1.75rem; margin-bottom: 12px;">
+              Thông Tin Liên Hệ Chính Thức
+            </h3>
+            <p style="color: var(--text-secondary);">
+              Bấm trực tiếp vào số điện thoại hoặc địa chỉ email bên dưới để gọi điện, gửi thư hoặc sao chép nhanh.
+            </p>
+
+            <div class="contact-info-list">
+              <!-- Phone Card -->
+              <div class="contact-card-item">
+                <div class="contact-item-left">
+                  <div class="contact-icon-box">📞</div>
+                  <div class="contact-details">
+                    <span>Số điện thoại / Zalo</span>
+                    <a href="tel:0983507192">0983507192</a>
+                  </div>
+                </div>
+                <button
+                  type="button"
+                  class="copy-btn"
+                  data-copy="0983507192"
+                  data-label="Số điện thoại"
+                >
+                  Sao chép
+                </button>
+              </div>
+
+              <!-- Email Card -->
+              <div class="contact-card-item">
+                <div class="contact-item-left">
+                  <div class="contact-icon-box">✉️</div>
+                  <div class="contact-details">
+                    <span>Địa chỉ Email</span>
+                    <a href="mailto:buithihoathcshl@gmail.com">buithihoathcshl@gmail.com</a>
+                  </div>
+                </div>
+                <button
+                  type="button"
+                  class="copy-btn"
+                  data-copy="buithihoathcshl@gmail.com"
+                  data-label="Email"
+                >
+                  Sao chép
+                </button>
+              </div>
+            </div>
+
+            <div style="padding: 18px 20px; border-radius: var(--radius-md); background: var(--gradient-soft); border: 1px solid var(--border-subtle);">
+              <strong style="display: block; margin-bottom: 4px; color: var(--accent-primary);">
+                🌸 Lời chúc tốt đẹp nhất
+              </strong>
+              <span style="font-size: 0.92rem; color: var(--text-secondary);">
+                Chúc bạn và gia đình luôn dồi dào sức khoẻ, ngập tràn tiếng cười và tìm thấy niềm hạnh phúc trong từng khoảnh khắc bình dị.
+              </span>
+            </div>
+          </div>
+
+          <!-- Interactive Quick Message Form -->
+          <form id="contact-form" class="contact-form">
+            <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-bottom: 4px;">
+              Gửi Lời Nhắn Yêu Thương
+            </h3>
+            <p style="font-size: 0.92rem; color: var(--text-secondary); margin-bottom: 8px;">
+              Điền lời nhắn bên dưới để kết nối nhanh qua hộp thư <strong>buithihoathcshl@gmail.com</strong>.
+            </p>
+
+            <div class="form-group">
+              <label for="sender-name">Họ và tên của bạn</label>
+              <input
+                type="text"
+                id="sender-name"
+                placeholder="Nhập họ và tên..."
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="sender-phone">Số điện thoại liên hệ</label>
+              <input
+                type="tel"
+                id="sender-phone"
+                placeholder="Ví dụ: 0983 xxx xxx"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="sender-message">Lời nhắn chia sẻ</label>
+              <textarea
+                id="sender-message"
+                rows="4"
+                placeholder="Hãy viết những lời chúc hoặc nội dung bạn muốn trao đổi..."
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="justify-content: center; width: 100%;">
+              <span>💌 Gửi Lời Nhắn Ngay</span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-brand">Hoà Đồng Cuộc Sống Tươi Đẹp</div>
+      <p>Lan toả yêu thương • Gắn kết tâm hồn • Lưu giữ thanh xuân</p>
+
+      <div class="footer-links">
+        <a href="tel:0983507192">📞 Điện thoại: 0983507192</a>
+        <a href="mailto:buithihoathcshl@gmail.com">✉️ Email: buithihoathcshl@gmail.com</a>
+      </div>
+
+      <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 16px;">
+        © 2026 Hoà Đồng Cuộc Sống Tươi Đẹp. Thiết kế với tất cả sự trân trọng và yêu thương.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Fullscreen Lightbox Modal -->
+  <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Xem ảnh phóng to">
+    <div class="lightbox-content">
+      <button id="lightbox-close" class="lightbox-close" aria-label="Đóng">✕</button>
+      <img id="lightbox-img" src="" alt="Hình ảnh phóng to" />
+      <p id="lightbox-caption" class="lightbox-caption"></p>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
